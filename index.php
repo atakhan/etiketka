@@ -1,9 +1,9 @@
 <?php
+error_reporting(error_reporting() & ~E_NOTICE);
+date_default_timezone_set('Asia/Calcutta');
+mb_internal_encoding("UTF-8");
 phpinfo();
-// error_reporting(error_reporting() & ~E_NOTICE);
-// date_default_timezone_set('Asia/Calcutta');
 
-// mb_internal_encoding("UTF-8");
 
 
 // $_root_path = $_SERVER["DOCUMENT_ROOT"].'/';
