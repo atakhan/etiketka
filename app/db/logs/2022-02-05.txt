@@ -1,0 +1,5 @@
+Time : 15:48:01
+SQLSTATE[HY000] [1049] Unknown database 'etiketka_db'
+
+Time : 15:48:01
+SQLSTATE[HY000] [1049] Unknown database 'etiketka_db'

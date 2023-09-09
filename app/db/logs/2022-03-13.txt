@@ -1,0 +1,7 @@
+Time : 12:29:30
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'label_form' cannot be null
+Raw SQL : INSERT INTO labels(label_form, label_width, label_height, product_name, product_subtitle, capacity, compound, instruction, create_date, sell_by, storage_condition) VALUES(:label_form, :label_width, :label_height, :product_name, :product_subtitle, :capacity, :compound, :instruction, :create_date, :sell_by, :storage_condition)
+
+Time : 12:29:04
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'label_form' cannot be null
+Raw SQL : INSERT INTO labels(label_form, label_width, label_height, product_name, product_subtitle, capacity, compound, instruction, create_date, sell_by, storage_condition) VALUES(:label_form, :label_width, :label_height, :product_name, :product_subtitle, :capacity, :compound, :instruction, :create_date, :sell_by, :storage_condition)

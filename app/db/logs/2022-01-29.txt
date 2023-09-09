@@ -1,0 +1,7 @@
+Time : 14:15:40
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'comment' cannot be null
+Raw SQL : INSERT INTO logs(log_datetime, action, comment, prev_log_hash) VALUES(:log_datetime, :action, :comment, :prev_log_hash)
+
+Time : 14:14:12
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'comment' cannot be null
+Raw SQL : INSERT INTO logs(log_datetime, action, comment, prev_log_hash) VALUES(:log_datetime, :action, :comment, :prev_log_hash)
