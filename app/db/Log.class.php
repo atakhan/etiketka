@@ -34,8 +34,13 @@
 				$log = $this->path . $date->format('Y-m-d').".txt";
 
 				if(is_dir($this->path)) {
-					if(!file_exists($log)) {
-						$fh  = fopen($log, 'a+') or die("Fatal Error !");
+					if(!file_exists($log))
+					{
+						$fh  = fopen($log, 'a+');
+						if ( !$fh ) {
+							echo 'fopen failed. reason: ', $php_errormsg;
+						}
+						
 						$logcontent = "Time : " . $date->format('H:i:s')."\r\n" . $message ."\r\n";
 						fwrite($fh, $logcontent);
 						fclose($fh);
